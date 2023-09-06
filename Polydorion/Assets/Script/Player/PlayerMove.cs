@@ -5,22 +5,17 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public CharacterController cch;
-
     public Transform cam;
 
     [Header("Movemenent")]
     public float movSped;
-    public Transform orientation;
     float horizontalInput;
     float verticalInput;
 
     public float smoothin = 0.1f;
     float smoothinVelo;
-
-    Vector3 moveDirection;
     Rigidbody rb;
     
- //   public Transform cam;
 
     public void Start()
     {
@@ -32,12 +27,8 @@ public class PlayerMove : MonoBehaviour
     {
         MyInput();
     }
-/*
-    private void FixedUpdate()
-    {
-        MovePly();
-    }
-*/
+    public Vector3 MoveDir { get; private set; }
+
     private void MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -55,30 +46,5 @@ public class PlayerMove : MonoBehaviour
         }
 
     }
-/*
-    public void MovePly()
-    {
-        moveDirection =  orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        rb.AddForce(moveDirection.normalized * movSped * 10f, ForceMode.Force);
-    }
-*/
-    /*
-    public void cthing()
-    {
-        moveDirection = Quaternion.AngleAxis(cam.rotation.eulerAngles.y, Vector3.up) * moveDirection;
-        moveDirection.Normalize();
-    }
-
-    private void AppFocus(bool focus)
-    {
-        if(focus)
-        {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        }
-        else{
-            Cursor.lockState =  CursorLockMode.None;
-        }
-    }*/
 }
