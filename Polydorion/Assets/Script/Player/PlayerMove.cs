@@ -28,7 +28,6 @@ public class PlayerMove : MonoBehaviour
         MyInput();
     }
     public Vector3 MoveDir { get; private set; }
-
     private void MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
