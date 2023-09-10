@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a27cfb672db6634da6db7fd977fb416, type: 3}
-  m_Name: Sword
+  m_Script: {fileID: 11500000, guid: d9528fdee77661c44aad64e7b91f8af8, type: 3}
+  m_Name: Skull
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1103283165505128253, guid: 56e03b6f7c994f7498394fce108e19e4, type: 3}
-  type: 1
-  description: Steel sword.
-  atkBonus: 5
-  defBonus: 1
+  prefab: {fileID: 3711480705977290651, guid: f18affbec3773024eab5355bb5c51fd8, type: 3}
+  type: 2
+  description: 

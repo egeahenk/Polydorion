@@ -15,7 +15,7 @@ public class PlayerMove : MonoBehaviour
     public float smoothin = 0.1f;
     float smoothinVelo;
     Rigidbody rb;
-    
+    public Vector3 MoveDir { get; private set; }
 
     public void Start()
     {
@@ -27,7 +27,7 @@ public class PlayerMove : MonoBehaviour
     {
         MyInput();
     }
-    public Vector3 MoveDir { get; private set; }
+
     private void MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -43,7 +43,5 @@ public class PlayerMove : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             cch.Move(moveDir.normalized * movSped * Time.deltaTime);
         }
-
     }
-
 }

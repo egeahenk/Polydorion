@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a27cfb672db6634da6db7fd977fb416, type: 3}
-  m_Name: Sword
+  m_Script: {fileID: 11500000, guid: 34365b7b8aef0ae4fb59f2829d1b4ad8, type: 3}
+  m_Name: HPotion
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1103283165505128253, guid: 56e03b6f7c994f7498394fce108e19e4, type: 3}
-  type: 1
-  description: Steel sword.
-  atkBonus: 5
-  defBonus: 1
+  prefab: {fileID: 2892191037521413275, guid: 6c367b95126ba4d42898025443876a64, type: 3}
+  type: 0
+  description: 'Restores HP.
+
+'
+  restoreHealthVal: 5
+  restoreManaVal: 0

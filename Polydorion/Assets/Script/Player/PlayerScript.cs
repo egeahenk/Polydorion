@@ -16,6 +16,19 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.F5))
+        {
+            inventory.Save();
+        }
+
+        if(Input.GetKeyDown(KeyCode.F8))
+        {
+            inventory.Load();
+        }
+    }
+
     private void OnApplicationQuit()
     {
         inventory.Container.Clear();
