@@ -4,8 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName="New Consumable Object", menuName = "Inventory System/ System/Items/Consumable")]
 public class ConsumableObject : ItemObject
 {
-    public int restoreHealthVal;
-    public int restoreManaVal;
+//    public int restoreHealthVal;
+//    public int restoreManaVal;
 
     public void Awake()
     {
