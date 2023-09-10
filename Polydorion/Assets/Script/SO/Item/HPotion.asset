@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34365b7b8aef0ae4fb59f2829d1b4ad8, type: 3}
   m_Name: HPotion
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2892191037521413275, guid: 6c367b95126ba4d42898025443876a64, type: 3}
+  Id: 6
+  uiDisplay: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   type: 0
   description: 'Restores HP.
 

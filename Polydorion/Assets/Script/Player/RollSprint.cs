@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RollSprint : MonoBehaviour
 {
-/*    public PlayerMove pm;
+    public PlayerMove pm;
 
     public float rollSpeed;
     public float rollTime;
@@ -43,5 +43,5 @@ public class RollSprint : MonoBehaviour
         }
 
         isRolling = false;
-    }*/
+    }
 }

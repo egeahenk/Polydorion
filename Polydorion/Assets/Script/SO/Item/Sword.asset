@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a27cfb672db6634da6db7fd977fb416, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1103283165505128253, guid: 56e03b6f7c994f7498394fce108e19e4, type: 3}
+  Id: 21
+  uiDisplay: {fileID: 21300000, guid: 531f5a466dda0b341b701f623c91f30e, type: 3}
   type: 1
   description: Steel sword.
   atkBonus: 5
