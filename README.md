@@ -1,2 +1,2 @@
 # Polydorion
-horror game
+demo game
